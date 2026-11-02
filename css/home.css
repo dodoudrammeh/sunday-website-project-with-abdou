@@ -1,0 +1,138 @@
+.hero-section-title {
+  font-size: 4rem;
+}
+
+.hero-description {
+  margin-top: 1rem;
+  font-size: 15px;
+  color: aliceblue;
+}
+
+.new-arrival-container,
+.top-selling-container {
+  padding: 5rem 0;
+}
+
+.new-arrival-title {
+  font-size: 2.8rem;
+}
+
+.new-arrival-description {
+  text-transform: capitalize;
+  margin: 1rem;
+}
+.new-arrival-content {
+  margin-top: 3rem;
+}
+.new-arrival-content > div {
+  gap: 1.2rem;
+}
+
+.card {
+  width: 22%;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card > img {
+  width: 100%;
+  height: 250px;
+}
+
+.card-body {
+  padding: 1.2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.card-body > h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.card-body > h5 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.card-body > .item-amount {
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+.card > h3 {
+  color: rgb(12, 12, 12);
+}
+
+.card > p {
+  color: #464343;
+}
+
+
+.wrapper {
+  gap: 2rem;
+}
+
+.footer-icon > ul > li > img {
+  width: 90px;
+}
+.footer-icon > ul > li > a {
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  text-align: center;
+}
+
+.car1 {
+  background-image: url(/assets/about/1.jfif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 15%;
+  height: 250px;
+}
+.car2 {
+  background-image: url(/assets/about/5.jfif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 15%;
+  height: 250px;
+}
+.car3 {
+  background-image: url(/assets/about/bread4.jfif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 15%;
+  height: 250px;
+}
+
+.car4 {
+  background-image: url(/assets/about/meat7.jfif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 15%;
+  height: 250px;
+}
+
+.add-to-cart-btn {
+  padding: 13px 1.4rem;
+  border: 1px solid blue;
+  min-width: 150px;
+  border-radius: 9999px;
+}
+
+.add-to-cart-btn:hover {
+  background: blue;
+  color: #fff;
+  cursor: pointer;
+  transition: all;
+  transition-duration: 300ms;
+  /* transition-delay: 3000ms; */
+}

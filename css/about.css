@@ -1,0 +1,12 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+/* swee */
+
+.img-about img {
+  width: 260px;
+}
+.rediu {
+  border-radius: 50%;
+}

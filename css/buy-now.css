@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.lists {
+  font-size: 40px;
+  text-transform: capitalize;
+}
+.price > table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  align-items: center;
+  text-transform: capitalize;
+  width: 900px;
+  font-size: 38px;
+  border: none;
+  background-color: rgb(28, 28, 72);
+}
+.price > table td {
+  align-items: center;
+  padding: 10px;
+}
+.user-form {
+  background-color: blue;
+  width: 50%;
+
+  padding: 10px;
+  margin: 0 auto;
+  width: 450px;
+}
+.user-form ::placeholder {
+  font-size: 20px;
+}
+.user-form input,
+select {
+  height: 2rem;
+}
+.bill-btn-1 {
+  padding: 13px 1.4rem;
+  min-width: 90px;
+  border-radius: 9999px;
+}

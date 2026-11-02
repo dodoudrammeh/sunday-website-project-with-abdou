@@ -1,0 +1,44 @@
+/* PRODUCT */
+
+
+.justify {
+  text-align: justify;
+}
+h2 > .m-top {
+  margin-top: 30px;
+}
+.single {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+}
+.double img {
+  width: 60%;
+  padding: 50px 0;
+}
+
+.about {
+  display: inline-block;
+  background-color: cadetblue;
+  color: blue;
+  padding: 8px 30px;
+  margin: 30px 0;
+  border-radius: 30px;
+}
+/* products */
+legend {
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+fieldset {
+  border: 5px solid black;
+}
+.left-1 {
+  margin-left: 90px;
+}
+
+.card {
+  box-shadow: 7px 5px 5px #0000003c;
+}
